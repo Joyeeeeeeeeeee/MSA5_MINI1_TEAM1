@@ -1,0 +1,93 @@
+a {
+	text-decoration: none;  
+	color: black; 
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+.adm_title {
+	 font-family:"Noto+Sans+KR", sans-serif;
+	float: left;
+	width: 100%;
+	color: #333;
+	margin-bottom: 2%;
+	padding: 2% 0;
+	text-align: center;
+}
+
+#tab-button-nav {
+	width: 100%;
+	float: left;
+	line-height: 45px;
+	background: #ffdd35;;
+	color: #333;
+    font-weight: 800;
+}
+
+.tab-button:hover {
+	background: #333;
+	color:white;
+}
+
+#tab-button-nav::after {
+	content: "";
+	display: block;
+	float: left;
+}
+
+.tab-button {
+	float: left;
+	width: 33.3333%;
+	text-align: center;
+}
+
+.tab-section {
+	margin-top: 5%;
+}
+
+table {
+	border: 1px #a39485 solid;
+	font-size: .9em;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .05);
+	width: 100%;
+	border-collapse: collapse;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-top: 35px;
+}
+
+tr:nth-child(even) {
+	border:0px;
+	background:#fffde9;
+}
+
+thead {
+	font-weight: bold;
+	color: #fff;
+	background: #73685d;
+}
+
+td, th {
+	border:0px;
+	padding: 1em .5em;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+.btn {
+	display: block;
+    text-align: center;
+    padding: 10px 52px;
+    border: 0px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1),0 10px 10px 0 rgba(0, 0, 0, 0.01);;
+	text-align: center;
+}
+
+.container.adm {
+	width: 1300px;
+	margin: 0 auto;
+}
+
