@@ -18,7 +18,6 @@ public class UserServiceImpl implements UserService {
 		} else {
 			System.out.println("회원 가입 실패!");
 		}
-		// 기본 회원 권한을 추가...
 		
 		return result;
 	}
@@ -26,7 +25,7 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public Users login(Users user) {
 		
-		Users loginUser = userDAO.login(user);
+		Users loginUser = userDAO.login(String id, String pw);
 	
 		// 로그인 성공
 		if( loginUser != null) {

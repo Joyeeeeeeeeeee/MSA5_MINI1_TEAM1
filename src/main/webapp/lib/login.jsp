@@ -12,7 +12,6 @@
 <%
 String id = request.getParameter("id");
 String password = request.getParameter("pw");
-
 //아이디 저장
 String rememberId = request.getParameter("rememberId");
 Cookie cookieRememberId = new Cookie("rememberId", "");
